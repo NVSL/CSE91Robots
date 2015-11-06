@@ -45,6 +45,6 @@
       <placedpart refdes="B1" x="93" y="70" rotation="0" mirrored="False" />
    </component>
    <component progname="bump" type="bump-switch-medium-right">
-      <placedpart refdes="U$2" x="27" y="83" rotation="0" mirrored="False" />
+      <placedpart refdes="U$2" x="26" y="90" rotation="0" mirrored="False" />
    </component>
 </gadgetlayout>
