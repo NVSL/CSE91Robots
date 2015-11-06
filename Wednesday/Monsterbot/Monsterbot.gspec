@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gadgetlayout version="1.1">
+   <name>Gadget Name</name>
+   <creator />
+   <board x="0" y="0" width="180" height="113" />
+   <option name="faceplate-color" value="clear-nocolor" />
+   <option name="backplate-color" value="clear-nocolor" />
+   <option name="faceplate-etch" value="etch-front" />
+   <option name="backplate-etch" value="etch-back" />
+   <option name="front-standoff-height" value="8" />
+   <option name="back-standoff-height" value="8" />
+   <option name="pcb-thickness" value="1.57" />
+   <option name="faceplate-thickness" value="3.175" />
+   <option name="backplate-thickness" value="3.175" />
+   <option name="cam-target" value="LPKF" />
+   <component progname="brain" type="Adafruit-Pro-Trinket-5V-battery-powered" deletable="false">
+      <placedpart refdes="U1" x="32" y="90" rotation="230" mirrored="False" />
+   </component>
+   <component progname="battery" type="battery-9V-vertical" deletable="false">
+      <placedpart refdes="BATT1" x="131" y="45" rotation="55" mirrored="False" />
+   </component>
+   <component progname="display" type="Adafruit-8x8-1.2in-led-array-red">
+      <placedpart refdes="u1" x="52" y="42" rotation="0" mirrored="False" />
+   </component>
+   <component progname="drive" type="dual-motor-kit-knobby">
+      <placedpart refdes="L" x="184" y="34" rotation="0" mirrored="False" />
+      <placedpart refdes="R" x="-4" y="35" rotation="0" mirrored="False" />
+   </component>
+   <component progname="Servo" type="Servo-Normal-side">
+      <placedpart refdes="u1" x="82" y="95" rotation="0" mirrored="False" />
+   </component>
+   <component progname="caster" type="ball-caster-0.75in">
+      <placedpart refdes="u1" x="94" y="91" rotation="0" mirrored="False" />
+   </component>
+   <component progname="penholder" type="pen-holder">
+      <placedpart refdes="u1" x="170" y="105" rotation="310" mirrored="False" />
+   </component>
+   <component progname="button" type="tactile-button-round-gray">
+      <placedpart refdes="B1" x="132" y="79" rotation="0" mirrored="False" />
+   </component>
+   <component progname="led" type="LED-5mm-bright-blue">
+      <placedpart refdes="LED1" x="157" y="92" rotation="0" mirrored="False" />
+   </component>
+   <component progname="led_2" type="LED-5mm-bright-green">
+      <placedpart refdes="LED1" x="17" y="89" rotation="0" mirrored="False" />
+   </component>
+   <component progname="penholder_2" type="pen-holder">
+      <placedpart refdes="u1" x="10" y="104" rotation="45" mirrored="False" />
+   </component>
+   <component progname="penholder_3" type="pen-holder">
+      <placedpart refdes="u1" x="92" y="33" rotation="180" mirrored="False" />
+   </component>
+</gadgetlayout>
