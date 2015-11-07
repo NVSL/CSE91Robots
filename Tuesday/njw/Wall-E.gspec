@@ -24,7 +24,7 @@
       <placedpart refdes="R" x="139" y="88" rotation="180" mirrored="False" />
    </component>
    <component progname="Servo" type="Servo-Normal-side">
-      <placedpart refdes="u1" x="94" y="37" rotation="270" mirrored="False" />
+      <placedpart refdes="u1" x="94" y="39" rotation="270" mirrored="False" />
    </component>
    <component progname="distanceSensor" type="analog_distance_sensor">
       <placedpart refdes="dist1" x="37" y="13" rotation="190" mirrored="False" />
