@@ -27,7 +27,7 @@
       <placedpart refdes="dist1" x="37" y="2" rotation="180" mirrored="False" />
    </component>
    <component progname="distanceSensor_2" type="analog_distance_sensor">
-      <placedpart refdes="dist1" x="141" y="2" rotation="180" mirrored="False" />
+      <placedpart refdes="dist1" x="139" y="2" rotation="180" mirrored="False" />
    </component>
    <component progname="led" type="LED-5mm-bright-red">
       <placedpart refdes="LED1" x="43" y="26" rotation="0" mirrored="False" />
