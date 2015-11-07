@@ -17,17 +17,17 @@
       <placedpart refdes="U1" x="5" y="60" rotation="270" mirrored="False" />
    </component>
    <component progname="battery" type="battery-9V-vertical" deletable="false">
-      <placedpart refdes="BATT1" x="110.02" y="71.9" rotation="0" mirrored="False" />
+      <placedpart refdes="BATT1" x="110" y="77" rotation="0" mirrored="False" />
    </component>
    <component progname="drive" type="dual-motor-kit-knobby">
-      <placedpart refdes="L" x="135" y="38" rotation="0" mirrored="False" />
-      <placedpart refdes="R" x="-5" y="38" rotation="0" mirrored="False" />
+      <placedpart refdes="L" x="149" y="38" rotation="0" mirrored="False" />
+      <placedpart refdes="R" x="-19" y="38" rotation="0" mirrored="False" />
    </component>
    <component progname="caster" type="ball-caster-0.75in">
       <placedpart refdes="u1" x="65" y="78" rotation="0" mirrored="False" />
    </component>
    <component progname="distanceSensor" type="analog_distance_sensor">
-      <placedpart refdes="dist1" x="75" y="13" rotation="180" mirrored="False" />
+      <placedpart refdes="dist1" x="77" y="8" rotation="180" mirrored="False" />
    </component>
    <component progname="buzzer" type="piezo-buzzer">
       <placedpart refdes="u1" x="65" y="40" rotation="0" mirrored="False" />
