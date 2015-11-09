@@ -1,7 +1,7 @@
-GADGETS=frond.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
+DESIGN=frond
 
-default: build-gadgets
-
+build: default
+default: frond.all
 
 include $(GADGETRON_ROOT)/Tools/AutomaKit/Gadgetron.make
 
