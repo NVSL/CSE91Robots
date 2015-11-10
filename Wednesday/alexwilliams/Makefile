@@ -1,4 +1,4 @@
-GADGETS=alexwilliams.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
+GADGETS=jak.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
 
 default: build-gadgets
 

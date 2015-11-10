@@ -1,0 +1,56 @@
+<gadgetlayout version="1.1">
+   <name>JAK</name>
+   <creator/>
+   <board height="100" width="150" x="0" y="0"/>
+   <option name="faceplate-color" value="clear-nocolor"/>
+   <option name="backplate-color" value="clear-nocolor"/>
+   <option name="faceplate-etch" value="etch-front"/>
+   <option name="backplate-etch" value="etch-back"/>
+   <option name="front-standoff-height" value="8"/>
+   <option name="back-standoff-height" value="8"/>
+   <option name="pcb-thickness" value="1.57"/>
+   <option name="faceplate-thickness" value="3.175"/>
+   <option name="backplate-thickness" value="3.175"/>
+   <option name="cam-target" value="LPKF"/>
+   <component deletable="false" progname="brain" type="Adafruit-Pro-Trinket-5V-battery-powered">
+      <placedpart mirrored="False" refdes="U1" rotation="270" x="83" y="14"/>
+   </component>
+   <component deletable="false" progname="battery" type="battery-9V-vertical">
+      <placedpart mirrored="False" refdes="BATT1" rotation="0" x="42" y="17"/>
+   </component>
+   <component progname="display" type="Adafruit-8x8-1.2in-led-array-green">
+      <placedpart mirrored="False" refdes="u1" rotation="0" x="75" y="62"/>
+   </component>
+   <component progname="buzzer" type="piezo-buzzer">
+      <placedpart mirrored="False" refdes="u1" rotation="0" x="75" y="35"/>
+   </component>
+   <component progname="led" type="RGB-LED-5mm">
+      <placedpart mirrored="False" refdes="LED1" rotation="0" x="75" y="83"/>
+   </component>
+   <component progname="drive" type="dual-motor-kit-knobby">
+      <placedpart mirrored="False" refdes="L" rotation="0" x="162" y="89"/>
+      <placedpart mirrored="False" refdes="R" rotation="0" x="-12" y="89"/>
+      <placedpart mirrored="False" refdes="DRVR" rotation="0" x="136" y="36"/>
+   </component>
+   <component progname="caster" type="ball-caster-0.75in">
+      <placedpart mirrored="False" refdes="u1" rotation="0" x="13" y="13"/>
+   </component>
+   <component progname="led_2" type="LED-5mm-bright-red">
+      <placedpart mirrored="False" refdes="LED1" rotation="0" x="106" y="38"/>
+   </component>
+   <component progname="led_3" type="LED-5mm-bright-red">
+      <placedpart mirrored="False" refdes="LED1" rotation="0" x="44" y="39"/>
+   </component>
+   <component progname="button" type="tactile-button-square-gray">
+      <placedpart mirrored="False" refdes="B1" rotation="0" x="69" y="17"/>
+   </component>
+   <component progname="led_5" type="LED-5mm-bright-white">
+      <placedpart mirrored="False" refdes="LED1" rotation="0" x="96" y="90"/>
+   </component>
+   <component progname="led_6" type="LED-5mm-bright-white">
+      <placedpart mirrored="False" refdes="LED1" rotation="0" x="54" y="89"/>
+   </component>
+   <component progname="caster_2" type="ball-caster-0.75in">
+      <placedpart mirrored="False" refdes="u1" rotation="0" x="137" y="13"/>
+   </component>
+</gadgetlayout>
