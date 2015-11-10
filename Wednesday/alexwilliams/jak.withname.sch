@@ -3315,10 +3315,10 @@ MHz</text>
 <circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
 <wire x1="0.254" y1="-1.905" x2="-1.524" y2="-1.905" width="0.127" layer="25"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-1.905" width="0.127" layer="25"/>
-<pad name="1" x="-2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="2" x="-0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="square" rot="R90"/>
-<pad name="3" x="0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="4" x="2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="1" x="-2.159" y="0.9684" drill="0.9" diameter="1.6764" rot="R90"/>
+<pad name="2" x="-0.635" y="-0.9684" drill="0.9" diameter="1.6764" shape="square" rot="R90"/>
+<pad name="3" x="0.889" y="0.9684" drill="0.9" diameter="1.6764" rot="R90"/>
+<pad name="4" x="2.159" y="-0.9684" drill="0.9" diameter="1.6764" rot="R90"/>
 </package>
 <package name="SPARKFUN_HOBBY_MOTOR">
 <wire x1="-4" y1="-2.5" x2="5" y2="-2.5" width="0.127" layer="21"/>
@@ -6117,8 +6117,8 @@ MHz</text>
 <wire x1="2.1" y1="1.3" x2="2.1" y2="0.8" width="0.05" layer="39"/>
 <wire x1="4.65" y1="-0.8" x2="2.1" y2="-0.8" width="0.05" layer="39"/>
 <wire x1="4.65" y1="0.8" x2="4.65" y2="-0.8" width="0.05" layer="39"/>
-<pad name="1" x="-3.85" y="0" drill="0.7" stop="no" first="yes"/>
-<pad name="2" x="3.85" y="0" drill="0.7" stop="no"/>
+<pad name="1" x="-3.85" y="0" drill="0.7" diameter="1.1" stop="no" first="yes"/>
+<pad name="2" x="3.85" y="0" drill="0.7" diameter="1.1" stop="no"/>
 </package>
 <package name="DIOM5436X330_HS">
 <description>Diode, Molded Body; 5.40 mm L X 3.62 mm W X 3.30 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
