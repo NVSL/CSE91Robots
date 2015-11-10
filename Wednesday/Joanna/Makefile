@@ -1,4 +1,4 @@
-GADGETS=Joanna.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
+GADGETS=PessimistPrime.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
 
 default: build-gadgets
 
