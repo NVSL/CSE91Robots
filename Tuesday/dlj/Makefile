@@ -1,4 +1,4 @@
-GADGETS=dlj.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
+GADGETS=BashKetchum.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
 
 default: build-gadgets
 
