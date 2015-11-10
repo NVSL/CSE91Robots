@@ -31,9 +31,6 @@
    <component progname="bump" type="bump-switch-medium-right">
       <placedpart refdes="U$2" x="18.2" y="64.72" rotation="310" mirrored="False" />
    </component>
-   <component progname="led" type="RGB-LED-5mm">
-      <placedpart refdes="LED1" x="45" y="41" rotation="0" mirrored="False" />
-   </component>
    <component progname="button" type="tactile-button-square-green">
       <placedpart refdes="B1" x="135" y="106" rotation="0" mirrored="False" />
    </component>
