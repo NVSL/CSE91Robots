@@ -1,0 +1,46 @@
+README for gadget: JAK
+
+Components:
+	brain:	Adafruit-Pro-Trinket-5V-battery-powered
+	battery:	battery-9V-vertical
+	display:	Adafruit-8x8-1.2in-led-array-green
+	buzzer:	piezo-buzzer
+	led:	RGB-LED-5mm
+	drive:	dual-motor-kit-knobby
+	caster:	ball-caster-0.75in
+	led_2:	LED-5mm-bright-red
+	led_3:	LED-5mm-bright-red
+	button:	tactile-button-square-gray
+	led_5:	LED-5mm-bright-white
+	led_6:	LED-5mm-bright-white
+	caster_2:	ball-caster-0.75in
+
+Connections:
+	[brain.A4_0_brain, display.SDA_2_display]
+	[brain.A5_0_brain, display.SCL_2_display]
+	(brain.D3_0_brain, led.CONTROL_RED_4_led)
+	(brain.D5_0_brain, led.CONTROL_GREEN_4_led)
+	(brain.D6_0_brain, led.CONTROL_BLUE_4_led)
+	(brain.D9_0_brain, drive.PWMA_5_drive)
+	(brain.D10_0_brain, drive.PWMB_5_drive)
+	(brain.RXD1_0_brain, buzzer.1_3_buzzer)
+	(brain.TXD1_0_brain, drive.STBY_5_drive)
+	(brain.D4_0_brain, drive.AIN1_5_drive)
+	(brain.D8_0_brain, drive.AIN2_5_drive)
+	(brain.D11_0_brain, drive.BIN1_5_drive)
+	(brain.D12_0_brain, drive.BIN2_5_drive)
+	(brain.D13_0_brain, led_2.CONTROL_7_led_2)
+	(brain.A0_0_brain, led_3.CONTROL_8_led_3)
+	(brain.A1_0_brain, button.SENSE_9_button)
+	(brain.A2_0_brain, led_5.CONTROL_10_led_5)
+	(brain.A3_0_brain, led_6.CONTROL_11_led_6)
+	[brain.+5V_0_brain, led.VCC5V_4_led, display.VDD_2_display, drive.VCC_5_drive]
+	[drive.VM_5_drive, brain.VBAT_0_brain, battery.POS_1_battery]
+	[brain.GND2_0_brain, brain.GND1_0_brain, led_3.GND_8_led_3, button.GND_9_button, led_2.GND_7_led_2, buzzer.2_3_buzzer, drive.GND2_5_drive, drive.GND_5_drive, led_6.GND_11_led_6, brain.GND_0_brain, battery.NEG_1_battery, led_5.GND_10_led_5, display.GND_2_display]
+
+Power plan:
+	brain.+5V_out provides power to drive.VCC
+	brain.+5V_out provides power to led.VCC
+	brain.+5V_out provides power to display.VDD
+	battery.+9V_out provides power to brain.+VBat
+	battery.+9V_out provides power to drive.VM
