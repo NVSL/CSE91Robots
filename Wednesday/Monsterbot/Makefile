@@ -1,7 +1,7 @@
-GADGETS=.gspec  #littleBeatBox.gspec   test01.gspec test-trinket.gspec ledsnow.gspec door-message.gspec 
+DESIGN=Monsterbot
 
-default: build-gadgets
-
+build: default
+default: Monsterbot.all
 
 include $(GADGETRON_ROOT)/Tools/AutomaKit/Gadgetron.make
 
