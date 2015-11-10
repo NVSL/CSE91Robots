@@ -4523,14 +4523,14 @@ MHz</text>
           </instances>
           <busses/>
           <nets>
+            <net name="D4_0_brain" class="0">
+              <segment>
+                <pinref part="u1_4_buzzer" gate="G$1" pin="1"/>
+              </segment>
+            </net>
             <net name="GND2_0_brain" class="0">
               <segment>
                 <pinref part="u1_4_buzzer" gate="G$1" pin="2"/>
-              </segment>
-            </net>
-            <net name="RXD1_0_brain" class="0">
-              <segment>
-                <pinref part="u1_4_buzzer" gate="G$1" pin="1"/>
               </segment>
             </net>
           </nets>
@@ -4543,19 +4543,19 @@ MHz</text>
           </instances>
           <busses/>
           <nets>
+            <net name="D8_0_brain" class="0">
+              <segment>
+                <pinref part="U$2_5_bump" gate="G$1" pin="A"/>
+                <wire x1="50.8" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+                <label x="35.56" y="53.34" size="1.778" layer="95"/>
+              </segment>
+            </net>
             <net name="GND2_0_brain" class="0">
               <segment>
                 <pinref part="GND1_5_bump" gate="1" pin="GND"/>
                 <pinref part="U$2_5_bump" gate="G$1" pin="B"/>
                 <wire x1="55.88" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
                 <wire x1="66.04" y1="53.34" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-              </segment>
-            </net>
-            <net name="TXD1_0_brain" class="0">
-              <segment>
-                <pinref part="U$2_5_bump" gate="G$1" pin="A"/>
-                <wire x1="50.8" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-                <label x="35.56" y="53.34" size="1.778" layer="95"/>
               </segment>
             </net>
           </nets>
@@ -4633,7 +4633,7 @@ MHz</text>
           </instances>
           <busses/>
           <nets>
-            <net name="D4_0_brain" class="0">
+            <net name="D11_0_brain" class="0">
               <segment>
                 <pinref part="B1_7_button" gate="G$1" pin="P"/>
                 <wire x1="48.26" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
@@ -4755,6 +4755,20 @@ MHz</text>
             </net>
             <net name="A0_0_brain" class="0">
               <segment>
+                <pinref part="DRVR_9_drive" gate="G$1" pin="AIN2"/>
+                <wire x1="-5.08" y1="17.78" x2="-10.16" y2="17.78" width="0.1524" layer="91"/>
+                <label x="-10.16" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+              </segment>
+            </net>
+            <net name="A1_0_brain" class="0">
+              <segment>
+                <pinref part="DRVR_9_drive" gate="G$1" pin="BIN1"/>
+                <wire x1="-5.08" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
+                <label x="-10.16" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+              </segment>
+            </net>
+            <net name="A2_0_brain" class="0">
+              <segment>
                 <pinref part="DRVR_9_drive" gate="G$1" pin="BIN2"/>
                 <wire x1="-5.08" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="91"/>
                 <label x="-10.16" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -4781,32 +4795,18 @@ MHz</text>
                 <label x="-10.16" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
               </segment>
             </net>
-            <net name="D11_0_brain" class="0">
-              <segment>
-                <pinref part="DRVR_9_drive" gate="G$1" pin="AIN1"/>
-                <wire x1="-5.08" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
-                <label x="-10.16" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-              </segment>
-            </net>
             <net name="D12_0_brain" class="0">
-              <segment>
-                <pinref part="DRVR_9_drive" gate="G$1" pin="AIN2"/>
-                <wire x1="-5.08" y1="17.78" x2="-10.16" y2="17.78" width="0.1524" layer="91"/>
-                <label x="-10.16" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-              </segment>
-            </net>
-            <net name="D13_0_brain" class="0">
-              <segment>
-                <pinref part="DRVR_9_drive" gate="G$1" pin="BIN1"/>
-                <wire x1="-5.08" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
-                <label x="-10.16" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-              </segment>
-            </net>
-            <net name="D8_0_brain" class="0">
               <segment>
                 <pinref part="DRVR_9_drive" gate="G$1" pin="STBY"/>
                 <wire x1="-5.08" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
                 <label x="-10.16" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+              </segment>
+            </net>
+            <net name="D13_0_brain" class="0">
+              <segment>
+                <pinref part="DRVR_9_drive" gate="G$1" pin="AIN1"/>
+                <wire x1="-5.08" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
+                <label x="-10.16" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
               </segment>
             </net>
             <net name="D9_0_brain" class="0">
