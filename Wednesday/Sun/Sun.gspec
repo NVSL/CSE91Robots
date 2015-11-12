@@ -31,13 +31,13 @@
       <placedpart refdes="u1" x="80" y="52" rotation="0" mirrored="False" />
    </component>
    <component progname="bump" type="bump-switch-medium-right">
-      <placedpart refdes="U$2" x="43" y="114" rotation="0" mirrored="False" />
+      <placedpart refdes="U$2" x="51.2" y="114" rotation="0" mirrored="False" />
    </component>
    <component progname="button" type="tactile-button-round-red">
       <placedpart refdes="B1" x="44" y="57" rotation="0" mirrored="False" />
    </component>
    <component progname="bump_2" type="bump-switch-medium-right">
-      <placedpart refdes="U$2" x="106" y="6" rotation="180" mirrored="False" />
+      <placedpart refdes="U$2" x="103.5" y="6" rotation="180" mirrored="False" />
    </component>
    <component progname="buzzer" type="piezo-buzzer">
       <placedpart refdes="u1" x="80" y="105" rotation="0" mirrored="False" />
