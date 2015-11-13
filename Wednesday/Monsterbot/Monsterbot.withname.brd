@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -150,8 +150,8 @@
 <board>
 <plain>
 <rectangle x1="-30" y1="-5.005" x2="49.34" y2="69" layer="43"/>
-<wire x1="0" y1="0" x2="0" y2="113" width="0.1" layer="20"/>
-<wire x1="0" y1="113" x2="180" y2="113" width="0.1" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="114" width="0.1" layer="20"/>
+<wire x1="0" y1="114" x2="180" y2="114" width="0.1" layer="20"/>
 <rectangle x1="0.233121875" y1="94.233121875" x2="19.766878125" y2="113.766878125" layer="43"/>
 <circle x="100.62" y="54.11" radius="3.3796" width="0.001" layer="165"/>
 <circle x="100.62" y="54.11" radius="3.3796" width="0.001" layer="164"/>
@@ -237,7 +237,7 @@
 <circle x="18.27" y="89" radius="2.3382" width="0.001" layer="165"/>
 <circle x="18.27" y="89" radius="2.3382" width="0.001" layer="164"/>
 <wire x1="180" y1="0" x2="0" y2="0" width="0.1" layer="20"/>
-<wire x1="180" y1="113" x2="180" y2="0" width="0.1" layer="20"/>
+<wire x1="180" y1="114" x2="180" y2="0" width="0.1" layer="20"/>
 <rectangle x1="19.89085625" y1="72.934075" x2="22.79085625" y2="75.834075" layer="41"/>
 <rectangle x1="19.89085625" y1="80.634075" x2="22.79085625" y2="83.534075" layer="41"/>
 <rectangle x1="20.01585625" y1="73.559075" x2="22.66585625" y2="82.909075" layer="43"/>
@@ -4180,7 +4180,7 @@ design rules under a new name.
 <element name="U1_2_DISPLAY" library="BOBs" package="ADAFRUIT-1.2IN-8X8-LED-BACKPACK" value="ADAFRUIT-1.2IN-8X8-LED-BACKPACK-BOB" x="52" y="42" locked="yes"/>
 <element name="U1_4_SERVO" library="Components" package="SERVO_MICRO_SIDE" value="SERVOMICROSIDE" x="82" y="95" locked="yes"/>
 <element name="U1_5_CASTER" library="Components" package="ADAFRUIT-3/4IN-CASTER" value="CASTERADAFRUIT-3/4IN" x="94" y="91" locked="yes"/>
-<element name="U1_6_PENHOLDER" library="Components" package="PENHOLDER" value="PENHOLDER" x="170" y="105" locked="yes" rot="R310"/>
+<element name="U1_6_PENHOLDER" library="Components" package="PENHOLDER" value="PENHOLDER" x="170" y="104" rot="R310"/>
 </elements>
 <signals>
 <signal name="+5V_0_BRAIN">

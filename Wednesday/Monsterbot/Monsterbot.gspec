@@ -1,7 +1,7 @@
 <gadgetlayout version="1.1">
    <name>Monsterbot</name>
    <creator/>
-   <board height="113" width="180" x="0" y="0"/>
+   <board height="114" width="180" x="0" y="0"/>
    <option name="faceplate-color" value="clear-nocolor"/>
    <option name="backplate-color" value="clear-nocolor"/>
    <option name="faceplate-etch" value="etch-front"/>
@@ -33,7 +33,7 @@
       <placedpart mirrored="False" refdes="u1" rotation="0" x="94" y="91"/>
    </component>
    <component progname="penholder" type="pen-holder">
-      <placedpart mirrored="False" refdes="u1" rotation="310" x="170" y="105"/>
+      <placedpart mirrored="False" refdes="u1" rotation="310" x="170" y="104"/>
    </component>
    <component progname="button" type="tactile-button-round-gray">
       <placedpart mirrored="False" refdes="B1" rotation="0" x="132" y="79"/>

@@ -1,0 +1,42 @@
+README for gadget: Sun
+
+Components:
+	brain:	Adafruit-Pro-Trinket-5V-battery-powered
+	battery:	battery-9V-vertical
+	drive:	dual-motor-kit-knobby
+	drive_2:	dual-motor-kit-knobby
+	penholder:	pen-holder
+	bump:	bump-switch-medium-right
+	button:	tactile-button-round-red
+	bump_2:	bump-switch-medium-right
+	buzzer:	piezo-buzzer
+
+Connections:
+	(brain.D3_0_brain, drive.PWMA_2_drive)
+	(brain.D5_0_brain, drive.PWMB_2_drive)
+	(brain.D6_0_brain, drive_2.PWMA_3_drive_2)
+	(brain.D9_0_brain, drive_2.PWMB_3_drive_2)
+	(brain.RXD1_0_brain, drive.STBY_2_drive)
+	(brain.TXD1_0_brain, drive.AIN1_2_drive)
+	(brain.D4_0_brain, drive.AIN2_2_drive)
+	(brain.D8_0_brain, drive.BIN1_2_drive)
+	(brain.D10_0_brain, drive.BIN2_2_drive)
+	(brain.D11_0_brain, drive_2.STBY_3_drive_2)
+	(brain.D12_0_brain, drive_2.AIN1_3_drive_2)
+	(brain.D13_0_brain, drive_2.AIN2_3_drive_2)
+	(brain.A0_0_brain, drive_2.BIN1_3_drive_2)
+	(brain.A1_0_brain, drive_2.BIN2_3_drive_2)
+	(brain.A2_0_brain, bump.SENSE_5_bump)
+	(brain.A3_0_brain, button.SENSE_6_button)
+	(brain.A4_0_brain, bump_2.SENSE_7_bump_2)
+	(brain.A5_0_brain, buzzer.1_8_buzzer)
+	[brain.+5V_0_brain, drive_2.VCC_3_drive_2, drive.VCC_2_drive]
+	[drive.VM_2_drive, drive_2.VM_3_drive_2, brain.VBAT_0_brain, battery.POS_1_battery]
+	[brain.GND2_0_brain, brain.GND1_0_brain, bump.GND_5_bump, bump_2.GND_7_bump_2, button.GND_6_button, drive_2.GND_3_drive_2, drive.GND2_2_drive, drive.GND_2_drive, buzzer.2_8_buzzer, brain.GND_0_brain, battery.NEG_1_battery, drive_2.GND2_3_drive_2]
+
+Power plan:
+	brain.+5V_out provides power to drive.VCC
+	brain.+5V_out provides power to drive_2.VCC
+	battery.+9V_out provides power to brain.+VBat
+	battery.+9V_out provides power to drive.VM
+	battery.+9V_out provides power to drive_2.VM
